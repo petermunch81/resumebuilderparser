@@ -14,12 +14,12 @@ export const TopNavBar = () => {
       aria-label="Site Header"
       className={cx(
         "flex h-[var(--top-nav-bar-height)] items-center border-b-2 border-gray-100 px-3 lg:px-12",
-        isHomePage && "bg-dot"
+        isHomePage && "bg-dott"
       )}
     >
       <div className="flex h-10 w-full items-center justify-between">
         <Link href="/">
-          <div className="flex items-center justify-center gap-1">
+          <div className="flex items-center justify-center gap-2">
             <Image
               src={"assets/heart.svg"}
               width={16}
@@ -29,7 +29,7 @@ export const TopNavBar = () => {
               priority
             />
             <h1 className="text-xl whitespace-nowrap font-bold text-primary">
-              Resume Builder & Parser
+              CVEO
             </h1>
           </div>
         </Link>

@@ -16,13 +16,13 @@ export const Hero = () => {
           With this powerful resume builder
         </p>
         <Link href="/resume-import" className="btn-primary mt-6 lg:mt-14">
-          Create Resume
+          Opret et CV nu
         </Link>
         <p className="ml-6 mt-3 text-sm text-gray-600">No sign up required</p>
         <p className="mt-3 text-sm text-gray-600 lg:mt-36">
-          Already have a resume? Test its ATS readability with the{" "}
+          Har du allerede et CV? Test ATS læsbarheden med vores {" "}
           <Link href="/resume-parser" className="underline underline-offset-2">
-            resume parser
+            CV tester
           </Link>
         </p>
       </div>
